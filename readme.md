@@ -44,6 +44,10 @@ y = x!; // no warning either
 
 ## What's going on under the hood?
 
+> There is a [description of the feature](https://github.com/dotnet/roslyn/blob/master/docs/features/nullable-reference-types.md)
+> in the Roslyn directory, but it seems to be a bit out of sync as of this writing
+> (Feb.&#160;2&#160;2019).
+
 I wanted to know if I could figure out by using reflection, if a property in a
 class was being declared as `string` or as `string?`. Since code compiled with
 the C# 8 compiler should still run on an unmodified CLR, I was on the lookout
